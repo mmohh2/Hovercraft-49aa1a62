@@ -1,0 +1,63 @@
+table#periodicTable {
+    width: 30px;
+}
+
+td,
+th {
+
+    border: 1px solid white;
+}
+
+th {
+    background-color: #f2f2f2;
+    padding: 15px 0px;
+    height: 25px;
+}
+
+td {
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.yellow {
+    background-color: yellow;
+    font-weight: bolder;
+    border: 1px solid black;
+    cursor: grab;
+}
+
+.blue{
+    background-color: #128FF4;
+    font-weight: bold;
+    border: 1px solid black;
+    cursor: grab;
+}
+
+.purple {
+    background-color: #AB71D0;
+    font-weight: bold;
+    border: 1px solid black;
+    cursor: grab;
+}
+
+.orange {
+    background-color: #F2AD59;
+    font-weight: bold;
+    border: 1px solid black;
+    color: green;
+    cursor: grab;
+
+}
+
+.row {
+    padding: 8px;
+}
+
+
+td:hover {
+    background-color: #00FF45;
+}
+
+a {
+    text-decoration: none;
+}
